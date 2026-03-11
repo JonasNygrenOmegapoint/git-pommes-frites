@@ -21,6 +21,6 @@ export const printSmallNumbers = () => console.log(getSmallNumbers());
 
 export const printDivider = () => {
   console.log("");
-  console.log("----------");
+  console.log("--------------------");
   console.log("");
 };
