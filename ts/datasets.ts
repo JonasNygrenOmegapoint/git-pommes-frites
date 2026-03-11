@@ -19,3 +19,5 @@ const isBigNumber = (num: number) => num > 5;
 const isSmallNumber = (num: number) => !isBigNumber(num);
 
 export const junkFunction = () => console.log("I'm of no use!");
+
+export const junction = () => console.log("I'm of no use either!");
