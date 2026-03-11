@@ -18,3 +18,9 @@ export const printOddNumbers = () => console.log(getOddNumbers());
 export const printBigNumbers = () => console.log(getBigNumbers());
 
 export const printSmallNumbers = () => console.log(getSmallNumbers());
+
+export const printDivider = () => {
+  console.log("");
+  console.log("----------");
+  console.log("");
+};

@@ -1,6 +1,7 @@
 import {
   printBigNumbers,
   printDataset,
+  printDivider,
   printEvenNumbers,
   printOddNumbers,
   printReverseDataset,
@@ -10,8 +11,10 @@ import {
 function main() {
   printDataset();
   printReverseDataset();
+  printDivider();
   printEvenNumbers();
   printOddNumbers();
+  printDivider();
   printBigNumbers();
   printSmallNumbers();
 }
