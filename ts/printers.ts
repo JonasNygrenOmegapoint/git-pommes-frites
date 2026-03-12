@@ -30,4 +30,5 @@ export const printFirsts = () => {
   console.log("First reverse number", getReverseDataset()[0]);
   console.log("First big number", getBigNumbers()[1]);
   console.log("First small number", getSmallNumbers()[0]);
+  console.log("First even number", getEvenNumbers()[0]);
 };
