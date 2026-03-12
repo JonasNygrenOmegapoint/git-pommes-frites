@@ -3,6 +3,7 @@ import {
   printDataset,
   printDivider,
   printEvenNumbers,
+  printFirsts,
   printOddNumbers,
   printReverseDataset,
   printSmallNumbers,
@@ -17,6 +18,8 @@ function main() {
   printDivider();
   printBigNumbers();
   printSmallNumbers();
+  printDivider();
+  printFirsts();
 }
 
 main();
