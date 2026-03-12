@@ -13,6 +13,8 @@ export const sumSmallNumbers = () => sum(getSmallNumbers());
 
 export const sumAllNumbers = () => sum(getDataset());
 
+export const productAllNumbers = () => product(getDataset());
+
 export const productSmallNumbers = () => product(getSmallNumbers());
 
 export const averageEvenNumbers = () => average(getEvenNumbers());
