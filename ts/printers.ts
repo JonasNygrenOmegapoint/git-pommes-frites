@@ -27,4 +27,5 @@ export const printDivider = () => {
 
 export const printFirsts = () => {
   console.log("First number", getDataset()[0]);
+  console.log("First reverse number", getReverseDataset()[0]);
 };
