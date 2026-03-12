@@ -8,6 +8,8 @@ import { average, median, product, sum } from "./list_operations.ts";
 
 export const sumBigNumbers = () => sum(getBigNumbers());
 
+export const sumSmallNumbers = () => sum(getSmallNumbers());
+
 export const productSmallNumbers = () => product(getSmallNumbers());
 
 export const averageEvenNumbers = () => average(getEvenNumbers());
