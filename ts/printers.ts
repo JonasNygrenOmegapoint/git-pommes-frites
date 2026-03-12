@@ -1,3 +1,4 @@
+import { sumBigNumbers } from "./data_aggregation.ts";
 import {
   getBigNumbers,
   getDataset,
@@ -32,4 +33,8 @@ export const printFirsts = () => {
   console.log("First small number", getSmallNumbers()[0]);
   console.log("First even number", getEvenNumbers()[0]);
   console.log("First odd number", getOddNumbers()[0]);
+};
+
+export const printDataAggregation = () => {
+  console.log("Sum of big numbers", sumBigNumbers());
 };

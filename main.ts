@@ -1,5 +1,6 @@
 import {
   printBigNumbers,
+  printDataAggregation,
   printDataset,
   printDivider,
   printEvenNumbers,
@@ -20,6 +21,8 @@ function main() {
   printSmallNumbers();
   printDivider();
   printFirsts();
+  printDivider();
+  printDataAggregation();
 }
 
 main();
