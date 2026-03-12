@@ -24,3 +24,7 @@ export const printDivider = () => {
   console.log("o----------x----------o");
   console.log("");
 };
+
+export const printFirsts = () => {
+  console.log("First number", getDataset()[0]);
+};
