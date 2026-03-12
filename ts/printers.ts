@@ -2,6 +2,7 @@ import {
   averageEvenNumbers,
   medianOddNumbers,
   productSmallNumbers,
+  sumAllNumbers,
   sumBigNumbers,
   sumSmallNumbers,
 } from "./data_aggregation.ts";
@@ -44,6 +45,7 @@ export const printFirsts = () => {
 export const printDataAggregation = () => {
   console.log("Sum of big numbers", sumBigNumbers());
   console.log("Sum of small numbers", sumSmallNumbers());
+  console.log("Sum of all numbers", sumAllNumbers());
   console.log("Product of small numbers", productSmallNumbers());
   console.log("Average of even numbers", averageEvenNumbers());
   console.log("Median of odd numbers", medianOddNumbers());

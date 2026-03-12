@@ -1,5 +1,6 @@
 import {
   getBigNumbers,
+  getDataset,
   getEvenNumbers,
   getOddNumbers,
   getSmallNumbers,
@@ -9,6 +10,8 @@ import { average, median, product, sum } from "./list_operations.ts";
 export const sumBigNumbers = () => sum(getBigNumbers());
 
 export const sumSmallNumbers = () => sum(getSmallNumbers());
+
+export const sumAllNumbers = () => sum(getDataset());
 
 export const productSmallNumbers = () => product(getSmallNumbers());
 
