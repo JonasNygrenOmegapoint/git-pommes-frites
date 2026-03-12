@@ -1,4 +1,8 @@
-import { productSmallNumbers, sumBigNumbers } from "./data_aggregation.ts";
+import {
+  averageEvenNumbers,
+  productSmallNumbers,
+  sumBigNumbers,
+} from "./data_aggregation.ts";
 import {
   getBigNumbers,
   getDataset,
@@ -38,4 +42,5 @@ export const printFirsts = () => {
 export const printDataAggregation = () => {
   console.log("Sum of big numbers", sumBigNumbers());
   console.log("Product of small numbers", productSmallNumbers());
+  console.log("Average of even numbers", averageEvenNumbers());
 };
