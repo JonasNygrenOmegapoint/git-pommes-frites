@@ -24,3 +24,12 @@ export const printDivider = () => {
   console.log("o----------x----------o");
   console.log("");
 };
+
+export const printFirsts = () => {
+  console.log("First number", getDataset()[0]);
+  console.log("First reverse number", getReverseDataset()[0]);
+  console.log("First big number", getBigNumbers()[0]);
+  console.log("First small number", getSmallNumbers()[0]);
+  console.log("First even number", getEvenNumbers()[0]);
+  console.log("First odd number", getOddNumbers()[0]);
+};
