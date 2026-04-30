@@ -3,7 +3,11 @@ function main() {
 }
 
 const printHello = () => {
-  console.log("Hello, World!");
+  printMessage("Hello, World!");
+};
+
+const printMessage = (message: string) => {
+  console.log(message);
 };
 
 main();
