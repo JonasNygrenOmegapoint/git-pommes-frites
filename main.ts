@@ -1,5 +1,9 @@
 function main() {
-  console.log("Hello, World!");
+  printHello();
 }
+
+const printHello = () => {
+  console.log("Hello, World!");
+};
 
 main();
