@@ -1,5 +1,6 @@
 function main() {
   printHello();
+  printNiceMessage();
 }
 
 const printHello = () => {
